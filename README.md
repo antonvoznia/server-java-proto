@@ -6,6 +6,8 @@ Server is written in Java 1.8 to process data in Proto Buff and to response the 
 
 ### Compile and run
 ```
+git clone https://github.com/antonvoznia/server-java-proto.git
+cd /home/anton/Development/CTU/ESW/Server_java/README.md
 mvn compile
 mvn exec:java -Dexec.mainClass="com.voznia.Main" -Dexec.args="12331"
 ```
